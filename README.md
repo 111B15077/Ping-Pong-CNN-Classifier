@@ -4,6 +4,9 @@
 
 這是一個使用深度學習技術進行桌球影像分類的研究專案，比較了 VGG16 和 ResNet34 兩種卷積神經網路架構在桌球圖像識別任務上的性能表現。
 
+VGG16訓練資料雲端連結：https://drive.google.com/drive/folders/1udNGmyyF2Sl8-jO9T46f7UeHSsleIKT0?usp=drive_link
+ResNet34訓練資料雲端連結：https://drive.google.com/drive/folders/1e-V52fyxuxOKOJ9VlSzuUiXQrhMf5L0s?usp=drive_link
+
 ## 🏓 專案概述 / Project Overview
 
 本專案旨在開發一個能夠自動識別影像中是否包含桌球相關內容的深度學習模型。我們使用了兩種經典的卷積神經網路架構：
@@ -212,5 +215,6 @@ Ping-Pong-CNN-Classifier/
 所有評估結果都會輸出到終端並保存到 CSV 文件中。
 
 **關鍵字**: 深度學習, 卷積神經網路, VGG16, ResNet34, 影像分類, 桌球識別, 遷移學習, TensorFlow, Keras
+
 
 **Keywords**: Deep Learning, Convolutional Neural Networks, VGG16, ResNet34, Image Classification, Table Tennis Recognition, Transfer Learning, TensorFlow, Keras
