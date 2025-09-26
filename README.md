@@ -1,11 +1,8 @@
-# 基於卷積神經網路的桌球影像分類研究 / Ping-Pong CNN Classifier
+# Ping-Pong CNN Classifier / 基於卷積神經網路的桌球影像分類研究
 
 > **Table Tennis Image Classification Using Convolutional Neural Networks**
 
 這是一個使用深度學習技術進行桌球影像分類的研究專案，比較了 VGG16 和 ResNet34 兩種卷積神經網路架構在桌球圖像識別任務上的性能表現。
-
-VGG16訓練資料雲端連結：https://drive.google.com/drive/folders/1udNGmyyF2Sl8-jO9T46f7UeHSsleIKT0?usp=drive_link 
-ResNet34訓練資料雲端連結：https://drive.google.com/drive/folders/1e-V52fyxuxOKOJ9VlSzuUiXQrhMf5L0s?usp=drive_link
 
 ## 🏓 專案概述 / Project Overview
 
@@ -37,6 +34,10 @@ ResNet34訓練資料雲端連結：https://drive.google.com/drive/folders/1e-V52
 - **影像尺寸**：224×224 像素
 - **分類標籤**：二元分類（桌球/非桌球）
 - **資料前處理**：歸一化至 [0,1] 範圍
+
+### 📁 訓練資料雲端連結 / Training Data Cloud Links
+- **VGG16 訓練資料**：[Google Drive](https://drive.google.com/drive/folders/1udNGmyyF2Sl8-jO9T46f7UeHSsleIKT0?usp=drive_link)
+- **ResNet34 訓練資料**：[Google Drive](https://drive.google.com/drive/folders/1e-V52fyxuxOKOJ9VlSzuUiXQrhMf5L0s?usp=drive_link)
 
 ## 🏗️ 模型架構 / Model Architecture
 
@@ -216,6 +217,4 @@ Ping-Pong-CNN-Classifier/
 
 **關鍵字**: 深度學習, 卷積神經網路, VGG16, ResNet34, 影像分類, 桌球識別, 遷移學習, TensorFlow, Keras
 
-
 **Keywords**: Deep Learning, Convolutional Neural Networks, VGG16, ResNet34, Image Classification, Table Tennis Recognition, Transfer Learning, TensorFlow, Keras
-
